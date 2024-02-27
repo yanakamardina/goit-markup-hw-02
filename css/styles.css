@@ -65,7 +65,7 @@ li {
 }
 
 .header-contacts:hover,
-.header-navigation-item:focus {
+.header-contacts:focus {
     color: #404BBF;
 }
 
