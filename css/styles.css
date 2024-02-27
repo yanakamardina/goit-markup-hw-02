@@ -28,12 +28,13 @@ li {
 }
 
 .section-title {
-    font-family: 36px;
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     font-weight: 700;
+    color: #2E2F42;
 }
 
 /* Header */
@@ -47,7 +48,8 @@ li {
 }
 
 .header-navigation-item:hover,
-.header-navigation-item:focus {
+.header-navigation-item:focus,
+.header-navigation-item:active {
     color: #404BBF;
 }
 
@@ -104,8 +106,6 @@ li {
 }
 
 .banner-button {
-    padding: 0;
-    border: none;
     background-color: #4D5AE5;
     color: white;
     cursor: pointer;
