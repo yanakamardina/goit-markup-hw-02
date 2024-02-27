@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -13,11 +14,26 @@ li {
 
 .section-text {
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .list-title {
     font-size: 20px;
     color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-title {
+    font-family: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    font-weight: 700;
 }
 
 /* Header */
@@ -27,6 +43,7 @@ li {
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .header-navigation-item:hover,
@@ -36,13 +53,18 @@ li {
 
 /* Contacts */
 
+.header-adress {
+    font-style: normal;
+}
+
 .header-contacts {
     color: #434455;
-    font-style: normal;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
-.header-contacts:hover {
+.header-contacts:hover,
+.header-navigation-item:focus {
     color: #404BBF;
 }
 
@@ -53,6 +75,9 @@ li {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .header-logo-part {
@@ -69,10 +94,13 @@ li {
     background-color: #2E2F42;
 }
 
-h1 {
+.banner-title {
     color: white;
     font-size: 56px;
     font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .banner-button {
@@ -81,9 +109,13 @@ h1 {
     background-color: #4D5AE5;
     color: white;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-.banner-button:hover {
+.banner-button:hover,
+.banner-button:focus {
     background-color: #404BBF;
 }
 
@@ -91,6 +123,10 @@ h1 {
 
 .our-team-section {
     background-color: #F4F4FD;
+}
+
+.our-team-item {
+    background-color: #FFFFFF;
 }
 
 /* Footer */
